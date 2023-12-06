@@ -1,5 +1,87 @@
+:root {
+    --lightgrey: #e6e6e6;
+    --background: #565656;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+  
+}
+
+h2 {
+   margin: 20px auto;
+   text-align: center;
+   color: var(--lightgrey);
+}
+img {
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
+#author {
+    text-align: center;
+    margin: 20px;
+    color: var(--lightgrey);
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    color: var(--lightgrey);
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    color: var(--lightgrey);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: orange;
+    font-size: 2rem;
+}
+
+.button-container {
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.prev-btn {
+    display: inline-block;
+    margin: 0 auto;
+    border
+}
+
+.next-btn {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.random-btn {
+    border-radius: 10px;
+    margin: 40px auto;
+    color: white;
+    font-size: 1rem;
+    background: rgb(143, 143, 143);
+}
+
+button:active {
+    
 }
