@@ -9,6 +9,7 @@
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--background);
+    font-size: 1.3rem;
 }
 
 body {
@@ -17,20 +18,20 @@ body {
     justify-content: center;
 }
 
-section {
-  
-}
 
 h2 {
    margin: 20px auto;
    text-align: center;
    color: var(--lightgrey);
 }
+
+
 img {
     margin: 0 auto;
     display: block;
-    height: 100px;
-    width: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #author {
@@ -39,10 +40,18 @@ img {
     color: var(--lightgrey);
 }
 
+#job {
+    color: rgb(244, 168, 26);
+}
+
 p {
     text-align: center;
     margin: 10px;
     color: var(--lightgrey);
+}
+
+#info {
+    height: 150px;
 }
 
 button {
@@ -66,7 +75,6 @@ button {
 .prev-btn {
     display: inline-block;
     margin: 0 auto;
-    border
 }
 
 .next-btn {
@@ -78,10 +86,10 @@ button {
     border-radius: 10px;
     margin: 40px auto;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background: rgb(143, 143, 143);
 }
 
 button:active {
-    
+    color: rgb(255, 229, 182);
 }
