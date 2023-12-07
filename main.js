@@ -48,8 +48,8 @@
  });
 
 // show person based on item
-function showPerson(person) {
-    const item = reviews[person];
+function showPerson() {
+    const item = reviews[currentItem];
     img.src = item.img;
     // textContent adds text
     author.textContent = item.name;
@@ -76,5 +76,11 @@ function showPerson(person) {
         currentItem ++;
         showPerson(currentItem);
     }
-    
  });
+
+ // show random reviewer
+randomBtn.addEventListener('click', function () {
+    currentItem = Math.floor(Math.random() * reviews.length);
+    showPerson();
+});
+
